@@ -2,6 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001259
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about:
+- identifier: UBERON:0034751
+  name: primary auditory cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
@@ -9,14 +13,22 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Cortical control of skilled, sound-guided behavior in mice (2024). (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001259/draft
+citation: Zempolich, Grant; Schneider, David (2024) Cortical control of skilled, sound-guided
+  behavior in mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001259/draft
 contributor:
-- awardNumber: 1 R01 CA 123456-01A1
-  name: National Institutes of Health (NIH)
+- identifier: 0000-0002-6036-9278
+  includeInCitation: true
+  name: Zempolich, Grant
   roleName:
-  - dcite:Funder
-  schemaKey: Organization
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-8945-2024
+  includeInCitation: true
+  name: Schneider, David
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
 description: Identifying mistakes is important for improving performance during acoustic
   behaviors like speech and musicianship. Although hearing is instrumental for monitoring
@@ -35,13 +47,29 @@ description: Identifying mistakes is important for improving performance during 
   behaviors. Together, these experiments identify a cortical role for detecting errors
   and learning from mistakes and suggest that the auditory cortex plays a critical
   role in skilled, sound-generating behavior in mammals.
+ethicsApproval: []
 id: DANDI:001259/draft
 identifier: DANDI:001259
+keywords:
+- auditory cortex
+- predictive coding
+- optogenetics
+license: []
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001259/versions/draft/assets/
 name: Cortical control of skilled, sound-guided behavior in mice
+protocol: []
+relatedResource:
+- name: schneider-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/schneider-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001259/draft
 version: draft
+wasGeneratedBy: []
