@@ -14,8 +14,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Zempolich, Grant; Schneider, David (2024) Cortical control of skilled, sound-guided
-  behavior in mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001259/draft
+citation: Zempolich, Grant; Schneider, David (2025) Cortical control of skilled, sound-guided
+  behavior in mice (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001259/draft
 contributor:
 - identifier: 0000-0002-6036-9278
   includeInCitation: true
@@ -23,7 +23,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-8945-2024
+- email: ds5577@nyu.edu
+  identifier: 0000-0002-8945-2024
   includeInCitation: true
   name: Schneider, David
   roleName:
@@ -55,11 +56,11 @@ keywords:
 - auditory cortex
 - predictive coding
 - optogenetics
-license: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001259/versions/draft/assets/
 name: Cortical control of skilled, sound-guided behavior in mice
-protocol: []
 relatedResource:
 - name: schneider-lab-to-nwb
   relation: dcite:IsCompiledBy
@@ -70,7 +71,9 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
-studyTarget: []
+studyTarget:
+- How does the auditory cortex integrate information about sound, movement, and behavioral
+  context to form predictions that aid in updating the brain’s internal motor programs?
 url: https://dandiarchive.org/dandiset/001259/draft
 version: draft
 wasGeneratedBy: []
