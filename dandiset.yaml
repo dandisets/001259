@@ -31,6 +31,15 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  identifier: 0009-0005-8943-5450
+  name: Adkisson, Paul
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
 description: Identifying mistakes is important for improving performance during acoustic
   behaviors like speech and musicianship. Although hearing is instrumental for monitoring
