@@ -31,12 +31,6 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- awardNumber: 1 R01 CA 123456-01A1
-  identifier: https://ror.org/01cwqze88
-  name: National Institutes of Health (NIH)
-  roleName:
-  - dcite:Funder
-  schemaKey: Organization
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
 description: Identifying mistakes is important for improving performance during acoustic
   behaviors like speech and musicianship. Although hearing is instrumental for monitoring
@@ -74,6 +68,12 @@ relatedResource:
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/schneider-lab-to-nwb
+- name: Example Notebooks
+  relation: dcite:IsContinuedBy
+  repository: GitHub
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: https://github.com/dandi/example-notebooks/pull/106
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
