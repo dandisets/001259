@@ -40,6 +40,39 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- awardNumber: 5T32NS086750
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- awardNumber: 1F31DC021868
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- awardNumber: 1R01DC018802
+  identifier: https://ror.org/01cwqze88
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- identifier: https://ror.org/003ghvj67
+  name: McKnight Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.mcknight.org/
+- identifier: https://ror.org/03n2a3p06
+  name: New York Stem Cell Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://nyscf.org/
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
 description: Identifying mistakes is important for improving performance during acoustic
   behaviors like speech and musicianship. Although hearing is instrumental for monitoring
@@ -58,7 +91,14 @@ description: Identifying mistakes is important for improving performance during 
   behaviors. Together, these experiments identify a cortical role for detecting errors
   and learning from mistakes and suggest that the auditory cortex plays a critical
   role in skilled, sound-generating behavior in mammals.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    email: iacuc.info@nyu.edu
+    schemaKey: ContactPoint
+    url: 
+      https://www.nyu.edu/research/resources-and-support-offices/getting-started-withyourresearch/research-with-animals/university-animal-welfare-committee.html
+  identifier: '#18-1498'
+  schemaKey: EthicsApproval
 id: DANDI:001259/draft
 identifier: DANDI:001259
 keywords:
