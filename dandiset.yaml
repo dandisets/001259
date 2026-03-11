@@ -12,11 +12,45 @@ access:
   schemaKey: AccessRequirements
   status: dandi:EmbargoedAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: optogenetic approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 539293112717
+  numberOfFiles: 188
+  numberOfSubjects: 21
   schemaKey: AssetsSummary
-citation: Zempolich, Grant; Schneider, David (2026) Cortical control of skilled, sound-guided
-  behavior in mice (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001259/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
+  - OptogeneticSeries
+  - BehavioralTimeSeries
+  - ElectricalSeries
+  - ElectrodeGroup
+  - Units
+citation: Zempolich, Grant; Schneider, David (2026) A shared cortical manifold links
+  sensory error to motor planning (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001259/draft
 contributor:
 - identifier: 0000-0002-6036-9278
   includeInCitation: true
@@ -75,23 +109,29 @@ contributor:
   schemaKey: Organization
   url: http://nyscf.org/
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
-description: Identifying mistakes is important for improving performance during acoustic
-  behaviors like speech and musicianship. Although hearing is instrumental for monitoring
-  and adapting these behaviors, the neural circuits that integrate motor, acoustic,
-  and goal-related signals to detect errors and guide ongoing sensorimotor adaptation
-  in mammals remain unidentified. Here, we develop a novel closed-loop, sound-guided
-  behavior that requires mice to use real-time acoustic feedback to guide skilled
-  ongoing forelimb movements. Large scale electrophysiology recordings reveal that
-  the mouse auditory cortex integrates information about sound and movement, as well
-  as encodes error- and learning-related signals during this sound-generating behavior.
-  Distinct groups of auditory cortex neurons signal different error types, and the
-  activity of these neurons predicts both within-trial and across-trial behavioral
-  adaptations. Brief, behavior-triggered optogenetic suppression of auditory cortex
-  during error signaling hinders behavioral corrections on both rapid and long time
-  scales, indicating that cortical error signals are necessary for skilled acoustic
-  behaviors. Together, these experiments identify a cortical role for detecting errors
-  and learning from mistakes and suggest that the auditory cortex plays a critical
-  role in skilled, sound-generating behavior in mammals.
+description: 'The ability to detect and correct errors is central to learning and
+  executing skilled behaviors such as speech and musical performance. Accordingly,
+  sensory and motor regions of the brain must communicate and coordinate their activity
+  in order to both detect errors and adapt in response to them. However, the neural
+  mechanisms by which sensory feedback is transformed into updated motor plans across
+  distributed cortical circuits remain unclear. Here, we identify how the mouse brain
+  encodes error signals during a skilled acoustic task and how these signals guide
+  motor adaptation. We developed a novel, sound-dependent behavior in which mice use
+  real-time auditory feedback to adjust ongoing forelimb movements. Task performance
+  critically depends on auditory cortex, where neurons encode error-related feedback
+  that predicts both within-trial and across-trial behavioral adaptations. Acoustic
+  error feedback alters secondary motor cortex (M2) dynamics, selectively pushing
+  activity along dimensions that encode planning signals for upcoming movements. Notably,
+  auditory cortex and M2 share a low-dimensional manifold that emerges only after
+  learning the skilled behavior. This shared geometry is not engaged during simpler
+  forelimb tasks, suggesting that it reflects a learned, context-dependent solution
+  for coordinating distributed cortical activity. In trained mice, silencing auditory
+  cortex disrupts M2 dynamics, consistent with a model of continuously coupled cortical
+  interactions during skilled performance. Together, these findings identify a learned
+  coordinate transformation that maps sensory error onto corrective motor plans. More
+  broadly, they point to a candidate general principle for how learning can establish
+  a shared cortical manifold that links distant brain regions, enabling sensory feedback
+  to selectively reshape future actions and support flexible, goal-directed control. '
 ethicsApproval:
 - contactPoint:
     email: iacuc.info@nyu.edu
@@ -110,7 +150,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001259/versions/draft/assets/
-name: Cortical control of skilled, sound-guided behavior in mice
+name: A shared cortical manifold links sensory error to motor planning
 relatedResource:
 - name: schneider-lab-to-nwb
   relation: dcite:IsCompiledBy
@@ -128,8 +168,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget:
-- How does the auditory cortex integrate information about sound, movement, and behavioral
-  context to form predictions that aid in updating the brain’s internal motor programs?
+- How is sensory feedback transformed into updated motor plans across distributed
+  cortical circuits?
 url: https://dandiarchive.org/dandiset/001259/draft
 version: draft
 wasGeneratedBy: []
