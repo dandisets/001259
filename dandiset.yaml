@@ -5,12 +5,12 @@
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
 about:
 - identifier: UBERON:0034751
-  name: primary auditory cortex
+  name: primary auditory cortex (A1) & secondary motor cortex (M2)
   schemaKey: Anatomy
 access:
-- embargoedUntil: '2028-03-10'
+- embargoedUntil: '2026-10-13'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: optogenetic approach
@@ -146,6 +146,7 @@ keywords:
 - auditory cortex
 - predictive coding
 - optogenetics
+- motor dynamics
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
