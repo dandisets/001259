@@ -50,7 +50,8 @@ assetsSummary:
   - ElectrodeGroup
   - Units
 citation: Zempolich, Grant; Schneider, David (2026) A shared cortical manifold links
-  sensory error to motor planning (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001259/draft
+  sensory error to motor planning (Version 0.261013.2200) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001259/0.261013.2200
 contributor:
 - identifier: 0000-0002-6036-9278
   includeInCitation: true
@@ -109,6 +110,7 @@ contributor:
   schemaKey: Organization
   url: http://nyscf.org/
 dateCreated: '2024-11-21T01:48:54.166898+00:00'
+datePublished: '2026-10-13T22:00:48.835669+00:00'
 description: 'The ability to detect and correct errors is central to learning and
   executing skilled behaviors such as speech and musical performance. Accordingly,
   sensory and motor regions of the brain must communicate and coordinate their activity
@@ -132,6 +134,7 @@ description: 'The ability to detect and correct errors is central to learning an
   broadly, they point to a candidate general principle for how learning can establish
   a shared cortical manifold that links distant brain regions, enabling sensory feedback
   to selectively reshape future actions and support flexible, goal-directed control. '
+doi: 10.48324/dandi.001259/0.261013.2200
 ethicsApproval:
 - contactPoint:
     email: iacuc.info@nyu.edu
@@ -140,7 +143,7 @@ ethicsApproval:
       https://www.nyu.edu/research/resources-and-support-offices/getting-started-withyourresearch/research-with-animals/university-animal-welfare-committee.html
   identifier: '#18-1498'
   schemaKey: EthicsApproval
-id: DANDI:001259/draft
+id: DANDI:001259/0.261013.2200
 identifier: DANDI:001259
 keywords:
 - auditory cortex
@@ -150,8 +153,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001259/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001259/0.261013.2200/assets.yaml
 name: A shared cortical manifold links sensory error to motor planning
+publishedBy:
+  endDate: '2026-10-13T22:00:48.835669+00:00'
+  id: urn:uuid:f4074954-df1c-452d-89ca-e60ef8003ef0
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-13T22:00:48.835669+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2858cbc6-9341-475d-8425-d9776ea65afe
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: schneider-lab-to-nwb
   relation: dcite:IsCompiledBy
@@ -171,6 +186,6 @@ schemaVersion: 0.6.8
 studyTarget:
 - How is sensory feedback transformed into updated motor plans across distributed
   cortical circuits?
-url: https://dandiarchive.org/dandiset/001259/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001259/0.261013.2200
+version: 0.261013.2200
 wasGeneratedBy: []
